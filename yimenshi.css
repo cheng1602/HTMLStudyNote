@@ -1,0 +1,421 @@
+.bg {
+	background: url(../img/yms_bg.png) no-repeat;
+}
+
+.left {
+	float: left;
+	width: 567px;
+}
+
+.titleBox {
+	background: url(../img/yms_title.png) no-repeat;
+	width: 576px;
+	height: 54px;
+	padding-left: 20px;
+	line-height: 54px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.jinZhuBuMenItem {
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+	padding-left: 75px;
+	align-items: center;
+}
+
+.jinZhuBuMenItem img {
+	display: block;
+}
+
+.jinZhuBuMenItem em {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	width: 175px;
+}
+
+.jinZhuBuMenItem em span {
+	display: block;
+	font-size: 24px;
+	color: #75f3fd;
+}
+
+.jinZhuBuMenItem em font {
+	display: block;
+	color: #99aacc;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.jinZhuBuMenItem:last-child em span {
+	color: #d3a54d;
+}
+
+.fuWuQingKuang {
+	margin-top: 30px;
+	height: 320px;
+	overflow: hidden;
+}
+
+/* fwqk_tb_header */
+/* fwqk_roll */
+
+.fwqk_tb_header table {
+	width: 95%;
+	margin-top: 18px;
+	text-align: center;
+	font-size: 14px;
+	color: #99aacc;
+}
+
+.fwqk_tb_header table th {
+	font-size: 16px;
+	font-weight: normal;
+	height: 30px;
+	color: #fff;
+}
+
+.fwqk_tb_header table td {
+	height: 30px;
+}
+
+.fwqk_tb_header table tr:nth-child(odd) {
+	background: rgba(8, 38, 92, .3);
+}
+
+.fwqk_tb_header table td:nth-of-type(2) {
+	font-weight: bold;
+	color: #75f3fd;
+}
+
+.fwqk_tb_header table td:nth-of-type(3) {
+	font-weight: bold;
+	color: #75f3fd;
+}
+
+.fwqk_tb_header table td:nth-of-type(4) {
+	font-weight: bold;
+	color: #d3a54d;
+}
+
+.fwqk_roll {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	top: 5px;
+}
+
+.fwqk_roll table {
+	width: 95%;
+	margin-top: 18px;
+	text-align: center;
+	font-size: 14px;
+	color: #99aacc;
+}
+
+.fwqk_roll table th {
+	font-size: 16px;
+	font-weight: normal;
+	height: 30px;
+	color: #fff;
+}
+
+.fwqk_roll table td {
+	height: 30px;
+}
+
+.fwqk_roll table tr:nth-child(odd) {
+	background: rgba(8, 38, 92, .3);
+}
+
+.fwqk_roll table td:nth-of-type(2) {
+	font-weight: bold;
+	color: #75f3fd;
+}
+
+.fwqk_roll table td:nth-of-type(3) {
+	font-weight: bold;
+	color: #75f3fd;
+}
+
+.fwqk_roll table td:nth-of-type(4) {
+	font-weight: bold;
+	color: #d3a54d;
+}
+
+.fwqk_table_tbody {
+	overflow: hidden;
+	position: absolute;
+	top: 2px;
+	left: 0;
+}
+
+.shiXiangPaiMing {
+	margin-top: 20px;
+}
+
+.shiXiangPaiMing_charts {
+	width: 548px;
+	height: 228px;
+	margin: 15px auto 0;
+}
+
+.right {
+	float: right;
+	width: 567px;
+}
+
+.banJianPaiMing_charts {
+	width: 547px;
+	height: 193px;
+	margin: 30px auto 0;
+}
+
+.reMenShiXiang {
+	margin-top: 18px;
+}
+
+.reMenShiXiangBox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.reMenShiXiangItem {
+	position: relative;
+	background: url(../img/yms_reMenShiXiangItem.png) no-repeat;
+	width: 143px;
+	height: 143px;
+	margin-top: 20px;
+	text-align: center;
+	padding-top: 32px;
+	margin-right: 30px;
+}
+
+.reMenShiXiangIndex {
+	position: absolute;
+	left: -26px;
+	background: url(../img/yms_reMenShiXiangIndex.png) no-repeat;
+	width: 46px;
+	height: 19px;
+	top: 23px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #01adfb;
+	text-align: center;
+	line-height: 0;
+}
+
+.reMenShiXiangItem span {
+	color: #fff;
+	font-size: 14px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.reMenShiXiangItem font {
+	display: block;
+	color: #99aacc;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+.reMenShiXiangItem font b {
+	font-weight: bold;
+	color: #75f3fd;
+	font-size: 18px;
+	margin-left: 5px;
+}
+
+.reMenShiXiangItem font:last-child b {
+	color: #d3a54d;
+}
+
+.faPaiTongJi {
+	margin-top: 20px;
+}
+
+.faPaiTongJi table {
+	width: 100%;
+	text-align: center;
+	margin-top: 17px;
+	font-size: 14px;
+	color: #99aacc;
+}
+
+.faPaiTongJi table th {
+	height: 30px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.faPaiTongJi table td {
+	height: 30px;
+}
+
+.faPaiTongJi table tr:nth-child(odd) {
+	background: rgba(8, 38, 92, 0.3);
+}
+
+.faPaiTongJi table td:nth-of-type(3) {
+	color: #f52d06;
+	font-weight: bold;
+}
+
+.faPaiTongJi table td:nth-of-type(4) {
+	color: #d3a54d;
+	font-weight: bold;
+}
+
+.faPaiTongJi table td:nth-of-type(5) {
+	color: #75f3fd;
+	font-weight: bold;
+}
+
+.mid {
+	float: left;
+	width: 675px;
+	margin-left: 20px;
+	padding-top: 190px;
+}
+
+.midData {
+	margin: 0 auto;
+	background: url(../img/yms_mid.png) no-repeat;
+	width: 568px;
+	height: 557px;
+	position: relative;
+}
+
+.midDataItem1 {
+	position: absolute;
+	left: 12%;
+	top: -17%;
+}
+
+.midDataItem1 span {
+	text-align: center;
+	font-family: font2;
+	font-size: 110px;
+	background: linear-gradient(to bottom, #fffffd, #ffd99b);
+	-webkit-background-clip: text;
+	color: transparent;
+	display: block;
+}
+
+.midDataItem1 font {
+	display: block;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #b6cae9;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.midDataItem2 {
+	position: absolute;
+	left: 3%;
+	top: 41%;
+}
+
+.midDataItem2 span {
+	text-align: center;
+	font-family: font2;
+	font-size: 70px;
+	background: linear-gradient(to bottom, #fffffd, #ffd99b);
+	-webkit-background-clip: text;
+	color: transparent;
+	display: block;
+}
+
+.midDataItem2 font {
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #b6cae9;
+	margin-top: 26px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.midDataItem3 {
+	left: 66%;
+}
+
+.main {
+	position: relative;
+}
+
+.banJian {
+	position: absolute;
+	bottom: 0;
+}
+
+
+.cunJiBanJianItem {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.cunJiBanJianItem .site {
+	width: 60px;
+	text-align: left;
+	color: #99aacc;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.cunJiBanJianItem .step {
+	margin-left: 20px;
+	width: 454px;
+	height: 8px;
+	border-radius: 15px;
+	background: #173e6a;
+	position: relative;
+}
+
+.cunJiBanJianItem .step em {
+	display: block;
+	background: linear-gradient(to right, #6859ff, #85f0fc);
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	border-radius: 15px;
+}
+
+.cunJiBanJianItem .step em b {
+	background: url(../img/stepDian.png) no-repeat;
+	width: 18px;
+	height: 18px;
+	background-size: 100% 100%;
+	position: absolute;
+	right: -6px;
+	top: -5px;
+	border-radius: 15px;
+}
+
+.cunJiBanJianItem .text {
+	margin-left: auto;
+	font-size: 12px;
+	color: #99aacc;
+}
+
+.cunJiBanJianItem .text b {
+	font-size: 18px;
+	font-weight: bold;
+	color: #75f3fd;
+	display: inline-block;
+	width: 70px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.cunJiBanJianList {
+	margin-top: 38px;
+}
